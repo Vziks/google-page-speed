@@ -1,0 +1,24 @@
+{
+    "name": "vziks/google-page-speed",
+    "type": "library",
+    "description": "PHP library for google page speed insights",
+    "keywords": ["google", "page", "speed"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Prokhorov",
+            "email": "vziks@live.ru"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vziks\\PageSpeed\\": "src/"
+        }
+    }
+}
